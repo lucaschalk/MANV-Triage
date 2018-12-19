@@ -1,14 +1,14 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Bachelorprojekt\Desktop\Triage\triage\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from C:\Users\Bachelorprojekt\Desktop\Triage\triage\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from C:\Users\Bachelorprojekt\Desktop\Triage\triage\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from C:\Users\Bachelorprojekt\Desktop\Triage\triage\src\main\AndroidManifest.xml:2:1-51:12
+ADDED from C:\Users\Bachelorprojekt\Desktop\Triage\triage\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\Users\Bachelorprojekt\Desktop\Triage\triage\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\Users\Bachelorprojekt\Desktop\Triage\triage\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\Users\Bachelorprojekt\Desktop\Triage\triage\src\main\AndroidManifest.xml:2:1-54:12
 MERGED from [com.android.support:multidex:1.0.2] C:\Users\Bachelorprojekt\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\79e65868bf260de778e12041280be793\AndroidManifest.xml:17:1-22:12
 MERGED from [:zBarScannerActivity] C:\Users\Bachelorprojekt\Desktop\Triage\zBarScannerActivity\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\Bachelorprojekt\Desktop\Triage\triage\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from C:\Users\Bachelorprojekt\Desktop\Triage\triage\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from C:\Users\Bachelorprojekt\Desktop\Triage\triage\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from C:\Users\Bachelorprojekt\Desktop\Triage\triage\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\Users\Bachelorprojekt\Desktop\Triage\triage\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\Users\Bachelorprojekt\Desktop\Triage\triage\src\main\AndroidManifest.xml:2:1-54:12
 	package
 		ADDED from C:\Users\Bachelorprojekt\Desktop\Triage\triage\src\main\AndroidManifest.xml:3:5-40
 		INJECTED from C:\Users\Bachelorprojekt\Desktop\Triage\triage\src\main\AndroidManifest.xml
@@ -62,7 +62,7 @@ MERGED from [:zBarScannerActivity] C:\Users\Bachelorprojekt\Desktop\Triage\zBarS
 	android:name
 		ADDED from C:\Users\Bachelorprojekt\Desktop\Triage\triage\src\main\AndroidManifest.xml:15:19-57
 application
-ADDED from C:\Users\Bachelorprojekt\Desktop\Triage\triage\src\main\AndroidManifest.xml:17:5-49:19
+ADDED from C:\Users\Bachelorprojekt\Desktop\Triage\triage\src\main\AndroidManifest.xml:17:5-52:19
 MERGED from [:zBarScannerActivity] C:\Users\Bachelorprojekt\Desktop\Triage\zBarScannerActivity\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:15:5-22:19
 MERGED from [:zBarScannerActivity] C:\Users\Bachelorprojekt\Desktop\Triage\zBarScannerActivity\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:15:5-22:19
 	android:supportsRtl
@@ -116,12 +116,18 @@ ADDED from C:\Users\Bachelorprojekt\Desktop\Triage\triage\src\main\AndroidManife
 		ADDED from C:\Users\Bachelorprojekt\Desktop\Triage\triage\src\main\AndroidManifest.xml:44:13-45
 	android:name
 		ADDED from C:\Users\Bachelorprojekt\Desktop\Triage\triage\src\main\AndroidManifest.xml:43:13-52
-activity#de.uniluebeck.imis.triage.activities.BluetoothActivity
+activity#de.uniluebeck.imis.triage.activities.BluetoothClient
 ADDED from C:\Users\Bachelorprojekt\Desktop\Triage\triage\src\main\AndroidManifest.xml:46:9-48:53
 	android:screenOrientation
 		ADDED from C:\Users\Bachelorprojekt\Desktop\Triage\triage\src\main\AndroidManifest.xml:48:13-50
 	android:name
-		ADDED from C:\Users\Bachelorprojekt\Desktop\Triage\triage\src\main\AndroidManifest.xml:47:13-57
+		ADDED from C:\Users\Bachelorprojekt\Desktop\Triage\triage\src\main\AndroidManifest.xml:47:13-55
+activity#de.uniluebeck.imis.triage.activities.BT_erase_Activity
+ADDED from C:\Users\Bachelorprojekt\Desktop\Triage\triage\src\main\AndroidManifest.xml:49:9-51:53
+	android:screenOrientation
+		ADDED from C:\Users\Bachelorprojekt\Desktop\Triage\triage\src\main\AndroidManifest.xml:51:13-50
+	android:name
+		ADDED from C:\Users\Bachelorprojekt\Desktop\Triage\triage\src\main\AndroidManifest.xml:50:13-57
 uses-sdk
 INJECTED from C:\Users\Bachelorprojekt\Desktop\Triage\triage\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Bachelorprojekt\Desktop\Triage\triage\src\main\AndroidManifest.xml

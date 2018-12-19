@@ -29,21 +29,21 @@ public final class R {
         private id() {}
 
         public static final int body_layout = 0x7f040002;
-        public static final int cameraField = 0x7f040003;
-        public static final int footerLeft = 0x7f040007;
-        public static final int footerMiddle = 0x7f040008;
-        public static final int footer_container = 0x7f040009;
-        public static final int header_container = 0x7f04000a;
-        public static final int headline_left = 0x7f04000b;
-        public static final int headline_right = 0x7f04000c;
-        public static final int layout = 0x7f04000d;
-        public static final int mainHeadLine = 0x7f04000e;
-        public static final int timestamp = 0x7f040015;
+        public static final int cameraField = 0x7f040006;
+        public static final int footerLeft = 0x7f04000a;
+        public static final int footerMiddle = 0x7f04000b;
+        public static final int footer_container = 0x7f04000c;
+        public static final int header_container = 0x7f04000d;
+        public static final int headline_left = 0x7f04000e;
+        public static final int headline_right = 0x7f04000f;
+        public static final int layout = 0x7f040010;
+        public static final int mainHeadLine = 0x7f040012;
+        public static final int timestamp = 0x7f04001a;
     }
     public static final class layout {
         private layout() {}
 
-        public static final int triage_algorithm_layout = 0x7f050002;
+        public static final int triage_algorithm_layout = 0x7f050004;
     }
     public static final class string {
         private string() {}

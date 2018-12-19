@@ -30,6 +30,9 @@ drawable triage_icon
 id action_settings
 id back_menu_item
 id body_layout
+id button_OK
+id button_scan
+id button_show_paired
 id cameraField
 id close_menu
 id confirm_menu_item
@@ -41,6 +44,7 @@ id header_container
 id headline_left
 id headline_right
 id layout
+id listView1
 id mainHeadLine
 id mainTextLine
 id no_menu_item
@@ -48,13 +52,17 @@ id overview_menu_item
 id scan_layout
 id stop_menu_item
 id switchLanguage_menu_item
+id textView1
 id timestamp
 id yes_menu_item
+layout activity_bt_erase
 layout bluetooth_activity_layout
+layout list_bt_item
 layout scanactivity
 layout triage_algorithm_layout
 layout triageactivity
 menu bluetooth
+menu bt_erase_
 menu menu_confirm_back_overview_stop
 menu menu_overview_language_close_stop
 menu menu_yes_back_overview_stop

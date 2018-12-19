@@ -46,40 +46,48 @@ public final class R {
     public static final int action_settings=0x7f040000;
     public static final int back_menu_item=0x7f040001;
     public static final int body_layout=0x7f040002;
-    public static final int cameraField=0x7f040003;
-    public static final int close_menu=0x7f040004;
-    public static final int confirm_menu_item=0x7f040005;
-    public static final int devices_spinner=0x7f040006;
-    public static final int footerLeft=0x7f040007;
-    public static final int footerMiddle=0x7f040008;
-    public static final int footer_container=0x7f040009;
-    public static final int header_container=0x7f04000a;
-    public static final int headline_left=0x7f04000b;
-    public static final int headline_right=0x7f04000c;
-    public static final int layout=0x7f04000d;
-    public static final int mainHeadLine=0x7f04000e;
-    public static final int mainTextLine=0x7f04000f;
-    public static final int no_menu_item=0x7f040010;
-    public static final int overview_menu_item=0x7f040011;
-    public static final int scan_layout=0x7f040012;
-    public static final int stop_menu_item=0x7f040013;
-    public static final int switchLanguage_menu_item=0x7f040014;
-    public static final int timestamp=0x7f040015;
-    public static final int yes_menu_item=0x7f040016;
+    public static final int button_OK=0x7f040003;
+    public static final int button_scan=0x7f040004;
+    public static final int button_show_paired=0x7f040005;
+    public static final int cameraField=0x7f040006;
+    public static final int close_menu=0x7f040007;
+    public static final int confirm_menu_item=0x7f040008;
+    public static final int devices_spinner=0x7f040009;
+    public static final int footerLeft=0x7f04000a;
+    public static final int footerMiddle=0x7f04000b;
+    public static final int footer_container=0x7f04000c;
+    public static final int header_container=0x7f04000d;
+    public static final int headline_left=0x7f04000e;
+    public static final int headline_right=0x7f04000f;
+    public static final int layout=0x7f040010;
+    public static final int listView1=0x7f040011;
+    public static final int mainHeadLine=0x7f040012;
+    public static final int mainTextLine=0x7f040013;
+    public static final int no_menu_item=0x7f040014;
+    public static final int overview_menu_item=0x7f040015;
+    public static final int scan_layout=0x7f040016;
+    public static final int stop_menu_item=0x7f040017;
+    public static final int switchLanguage_menu_item=0x7f040018;
+    public static final int textView1=0x7f040019;
+    public static final int timestamp=0x7f04001a;
+    public static final int yes_menu_item=0x7f04001b;
   }
   public static final class layout {
-    public static final int bluetooth_activity_layout=0x7f050000;
-    public static final int scanactivity=0x7f050001;
-    public static final int triage_algorithm_layout=0x7f050002;
-    public static final int triageactivity=0x7f050003;
+    public static final int activity_bt_erase=0x7f050000;
+    public static final int bluetooth_activity_layout=0x7f050001;
+    public static final int list_bt_item=0x7f050002;
+    public static final int scanactivity=0x7f050003;
+    public static final int triage_algorithm_layout=0x7f050004;
+    public static final int triageactivity=0x7f050005;
   }
   public static final class menu {
     public static final int bluetooth=0x7f060000;
-    public static final int menu_confirm_back_overview_stop=0x7f060001;
-    public static final int menu_overview_language_close_stop=0x7f060002;
-    public static final int menu_yes_back_overview_stop=0x7f060003;
-    public static final int menu_yes_no_back_overview_stop=0x7f060004;
-    public static final int menu_yes_no_overview_stop=0x7f060005;
+    public static final int bt_erase_=0x7f060001;
+    public static final int menu_confirm_back_overview_stop=0x7f060002;
+    public static final int menu_overview_language_close_stop=0x7f060003;
+    public static final int menu_yes_back_overview_stop=0x7f060004;
+    public static final int menu_yes_no_back_overview_stop=0x7f060005;
+    public static final int menu_yes_no_overview_stop=0x7f060006;
   }
   public static final class string {
     public static final int action_settings=0x7f070000;

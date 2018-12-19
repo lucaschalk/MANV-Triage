@@ -19,6 +19,7 @@ import android.widget.TextView;
 import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.Set;
+
 import de.uniluebeck.imis.triage.R;
 
 public class BT_erase_Activity extends Activity {
