@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Name of the app and start command -->
+    <string name="app_name">Triage</string>
+    <string name="custom_keyword">Triage</string>
+    <string name="action_settings">123</string>
+
+    <!-- Strings for menu interaction -->
+    <string name="yes">Positive</string>
+    <string name="cont">Continue</string>
+    <string name="no">Negative</string>
+    <string name="back">Undo</string>
+    <string name="stop">Stop</string>
+    <string name="next">New patient</string>
+    <string name="switchLanguage">Deutsche Version</string>
+    <string name="closeMenu">Close this menu</string>
+    <string name="overview">Patient Overview</string>
+
+    <!-- Strings for interaction commands -->
+    <string name="scan_code">Scan QR code of registration card</string>
+
+    <!-- Strings for header texts -->
+    <string name="pretriage">Triage</string>
+    <string name="new_patient">New patient</string>
+    <string name="patient">patient</string>
+    <string name="classification">Classification</string>
+    <string name="patientId">Identification number obtained:</string>
+
+    <!-- Strings for questions of algorithm -->
+    <string name="question">Question</string>
+    <string name="q1">Able to walk?</string>
+    <string name="q2">Mortal injury?</string>
+    <string name="q3">Lack of spontaneous breathing?</string>
+    <string name="q4">Respiratory rate\n &#8595;10 or &#8593;30/min?</string>
+    <string name="q4oneline">Respiratory rate &#8595;10 or &#8593; 30/min?</string>
+    <string name="q5">Severe bleeding?</string>
+    <string name="q6">Radial pulse absent?</string>
+    <string name="q7">Doesn\'t obey commands?</string>
+    <string name="q21">Life-threatening bleeding?</string>
+    <string name="q22">Patient unconscious?</string>
+    <string name="q23">Respiratory failure?</string>
+    <string name="q24">Circulatory failure?</string>
+    <string name="q25">Awareness trouble?</string>
+    <string name="q26">Great pain?</string>
+    <string name="q27">Patient laid? (cant walk without help)</string>
+
+    <!-- Strings for instructions -->
+    <string name="inspectionIfDead">Inspection</string>
+    <string name="inspectionIfDeadQuestion">Corpse inspected by a doctor?</string>
+    <string name="spontaneousBreathing">Breathing</string>
+    <string name="spontaneousBreathingQuestion">Position airway! Spontaneous breathing?</string>
+    <string name="bleedingControl">Bleeding</string>
+    <string name="bleedingControlInst">Control bleeding!</string>
+    <string name="stopbleeding">Stop bleeding</string>
+    <string name="transport">Transport as soons as possible</string>
+    <string name="lateralposition">Lateral position</string>
+
+    <!-- Strings for classification -->
+    <string name="card">Registration card</string>
+    <string name="kat1">Cat. I - red</string>
+    <string name="kat2">Cat. II - yellow</string>
+    <string name="kat3">Cat. III - green</string>
+    <string name="katblack">black</string>
+
+    <!-- Strings for showing last answer -->
+    <string name="last_getBack">last command: Undo</string>
+    <string name="last_q1no">last: Able to walk = Negative</string>
+    <string name="last_q1yes">last: Able to walk = Positive"</string>
+    <string name="last_q2no">last: Mortal injury = Negative</string>
+    <string name="last_q2yes">last: Mortal injury = Positive</string>
+    <string name="last_q3no">last: Lack of breathing = Negative</string>
+    <string name="last_q3yes">last: Lack of breathing = Positive</string>
+    <string name="last_q4no">last: Respiratory rate wrong = Negative</string>
+    <string name="last_q4yes">last: Respiratory rate wrong = Positive</string>
+    <string name="last_q5no">last: Bleeding = Negative</string>
+    <string name="last_q5yes">last: Bleeding = Positive</string>
+    <string name="last_q6no">last: Radial pulse absent = Negative</string>
+    <string name="last_q6yes">last: Radial pulse absent = Positive</string>
+    <string name="last_q7no">last: Doesn\'t obey commands = Negative</string>
+    <string name="last_q7yes">last: Doesn\'t obey commands = Positive</string>
+    <string name="last_q21no">"last: Life-threatening bleeding = Negative"</string>
+    <string name="last_q21yes">"last: Life-threatening bleeding = Positive"</string>
+    <string name="last_q22no">"last: Patient unconscious = Negative"</string>
+    <string name="last_q22yes">"last: Patient unconscious = Positive"</string>
+    <string name="last_q23no">"last: Respiratory failure = Negative"</string>
+    <string name="last_q23yes">"last: Respiratory failure = Positive"</string>
+    <string name="last_q24no">"last: Circulatory failure = Negative"</string>
+    <string name="last_q24yes">"last: Circulatory failure = Positive"</string>
+    <string name="last_q25no">"last: Awareness trouble = Negative"</string>
+    <string name="last_q25yes">"last: Awareness trouble = Positive"</string>
+    <string name="last_q26no">"last: Great pain = Negative"</string>
+    <string name="last_q26yes">"last: Great pain = Positive"</string>
+    <string name="last_q27no">"last: Patient laid = Negative"</string>
+    <string name="last_q27yes">"last: Patient laid = Positive"</string>
+    <string name="last_inspectedDead">last: Corpse inspected by a doctor</string>
+    <string name="last_spontaneBreathingNo">last: Breathing = Negative</string>
+    <string name="last_spontaneBreathingYes">last: Breathing = Positive</string>
+    <string name="last_bleedingControlled">last: Bleeding controlled</string>
+    <string name="last_transport">last: transported</string>
+    <string name="last_lateralposition">last: Patient in lateral poistion</string>
+
+    <!-- Strings for error messages -->
+    <string name="no_camera">Camera not available</string>
+
+</resources>

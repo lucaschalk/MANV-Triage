@@ -1,0 +1,94 @@
+[
+    {
+        "merged": "C:\\Users\\Bachelorprojekt\\Desktop\\Triage\\triage\\build\\intermediates\\res\\merged\\debug\\menu_menu_yes_no_back_overview_stop.xml.flat",
+        "source": "C:\\Users\\Bachelorprojekt\\Desktop\\Triage\\triage\\src\\main\\res\\menu\\menu_yes_no_back_overview_stop.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bachelorprojekt\\Desktop\\Triage\\triage\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4_ic_launcher.png.flat",
+        "source": "C:\\Users\\Bachelorprojekt\\Desktop\\Triage\\zBarScannerActivity\\build\\intermediates\\packaged_res\\debug\\drawable-ldpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Bachelorprojekt\\Desktop\\Triage\\triage\\build\\intermediates\\res\\merged\\debug\\layout_bluetooth_activity_layout.xml.flat",
+        "source": "C:\\Users\\Bachelorprojekt\\Desktop\\Triage\\triage\\src\\main\\res\\layout\\bluetooth_activity_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bachelorprojekt\\Desktop\\Triage\\triage\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_speech.png.flat",
+        "source": "C:\\Users\\Bachelorprojekt\\Desktop\\Triage\\triage\\src\\main\\res\\drawable-hdpi\\speech.png"
+    },
+    {
+        "merged": "C:\\Users\\Bachelorprojekt\\Desktop\\Triage\\triage\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Bachelorprojekt\\Desktop\\Triage\\triage\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Bachelorprojekt\\Desktop\\Triage\\triage\\build\\intermediates\\res\\merged\\debug\\layout_triage_algorithm_layout.xml.flat",
+        "source": "C:\\Users\\Bachelorprojekt\\Desktop\\Triage\\zBarScannerActivity\\build\\intermediates\\packaged_res\\debug\\layout\\triage_algorithm_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bachelorprojekt\\Desktop\\Triage\\triage\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_hand_h.png.flat",
+        "source": "C:\\Users\\Bachelorprojekt\\Desktop\\Triage\\triage\\src\\main\\res\\drawable-hdpi\\hand_h.png"
+    },
+    {
+        "merged": "C:\\Users\\Bachelorprojekt\\Desktop\\Triage\\triage\\build\\intermediates\\res\\merged\\debug\\menu_menu_yes_no_overview_stop.xml.flat",
+        "source": "C:\\Users\\Bachelorprojekt\\Desktop\\Triage\\triage\\src\\main\\res\\menu\\menu_yes_no_overview_stop.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bachelorprojekt\\Desktop\\Triage\\triage\\build\\intermediates\\res\\merged\\debug\\menu_bluetooth.xml.flat",
+        "source": "C:\\Users\\Bachelorprojekt\\Desktop\\Triage\\triage\\src\\main\\res\\menu\\bluetooth.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bachelorprojekt\\Desktop\\Triage\\triage\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_speech_s.png.flat",
+        "source": "C:\\Users\\Bachelorprojekt\\Desktop\\Triage\\triage\\src\\main\\res\\drawable-hdpi\\speech_s.png"
+    },
+    {
+        "merged": "C:\\Users\\Bachelorprojekt\\Desktop\\Triage\\triage\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_triage_icon.png.flat",
+        "source": "C:\\Users\\Bachelorprojekt\\Desktop\\Triage\\triage\\src\\main\\res\\drawable-hdpi\\triage_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Bachelorprojekt\\Desktop\\Triage\\triage\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Bachelorprojekt\\Desktop\\Triage\\triage\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Bachelorprojekt\\Desktop\\Triage\\triage\\build\\intermediates\\res\\merged\\debug\\menu_menu_yes_back_overview_stop.xml.flat",
+        "source": "C:\\Users\\Bachelorprojekt\\Desktop\\Triage\\triage\\src\\main\\res\\menu\\menu_yes_back_overview_stop.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bachelorprojekt\\Desktop\\Triage\\triage\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Bachelorprojekt\\Desktop\\Triage\\triage\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Bachelorprojekt\\Desktop\\Triage\\triage\\build\\intermediates\\res\\merged\\debug\\layout_triageactivity.xml.flat",
+        "source": "C:\\Users\\Bachelorprojekt\\Desktop\\Triage\\triage\\src\\main\\res\\layout\\triageactivity.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bachelorprojekt\\Desktop\\Triage\\triage\\build\\intermediates\\res\\merged\\debug\\layout_scanactivity.xml.flat",
+        "source": "C:\\Users\\Bachelorprojekt\\Desktop\\Triage\\triage\\src\\main\\res\\layout\\scanactivity.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bachelorprojekt\\Desktop\\Triage\\triage\\build\\intermediates\\res\\merged\\debug\\menu_menu_overview_language_close_stop.xml.flat",
+        "source": "C:\\Users\\Bachelorprojekt\\Desktop\\Triage\\triage\\src\\main\\res\\menu\\menu_overview_language_close_stop.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bachelorprojekt\\Desktop\\Triage\\triage\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_hand_big_black.png.flat",
+        "source": "C:\\Users\\Bachelorprojekt\\Desktop\\Triage\\triage\\src\\main\\res\\drawable-hdpi\\hand_big_black.png"
+    },
+    {
+        "merged": "C:\\Users\\Bachelorprojekt\\Desktop\\Triage\\triage\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_hand.png.flat",
+        "source": "C:\\Users\\Bachelorprojekt\\Desktop\\Triage\\triage\\src\\main\\res\\drawable-hdpi\\hand.png"
+    },
+    {
+        "merged": "C:\\Users\\Bachelorprojekt\\Desktop\\Triage\\triage\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_ic_launcher.png.flat",
+        "source": "C:\\Users\\Bachelorprojekt\\Desktop\\Triage\\zBarScannerActivity\\build\\intermediates\\packaged_res\\debug\\drawable-hdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Bachelorprojekt\\Desktop\\Triage\\triage\\build\\intermediates\\res\\merged\\debug\\xml_voice_trigger.xml.flat",
+        "source": "C:\\Users\\Bachelorprojekt\\Desktop\\Triage\\triage\\src\\main\\res\\xml\\voice_trigger.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bachelorprojekt\\Desktop\\Triage\\triage\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_hand_big.png.flat",
+        "source": "C:\\Users\\Bachelorprojekt\\Desktop\\Triage\\triage\\src\\main\\res\\drawable-hdpi\\hand_big.png"
+    },
+    {
+        "merged": "C:\\Users\\Bachelorprojekt\\Desktop\\Triage\\triage\\build\\intermediates\\res\\merged\\debug\\menu_menu_confirm_back_overview_stop.xml.flat",
+        "source": "C:\\Users\\Bachelorprojekt\\Desktop\\Triage\\triage\\src\\main\\res\\menu\\menu_confirm_back_overview_stop.xml"
+    }
+]

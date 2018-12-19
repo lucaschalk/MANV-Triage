@@ -1,0 +1,22 @@
+com.dm.zbar.android.scanner
+dimen glass_card_body_height
+dimen glass_card_footer_margin
+dimen glass_card_left_column_width
+dimen glass_card_margin
+dimen glass_card_two_column_margin
+dimen headline_main_margin
+dimen separator_bottom_margin
+drawable ic_launcher
+id body_layout
+id cameraField
+id footerLeft
+id footerMiddle
+id footer_container
+id header_container
+id headline_left
+id headline_right
+id layout
+id mainHeadLine
+id timestamp
+layout triage_algorithm_layout
+string app_name

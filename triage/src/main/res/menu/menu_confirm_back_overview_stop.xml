@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/confirm_menu_item"
+        android:title="@string/cont"/>
+    <item
+        android:id="@+id/back_menu_item"
+        android:title="@string/back"/>
+    <item
+        android:id="@+id/overview_menu_item"
+        android:title="@string/overview"/>
+    <item
+        android:id="@+id/stop_menu_item"
+        android:title="@string/stop"/>
+
+</menu>

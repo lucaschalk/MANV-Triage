@@ -1,0 +1,42 @@
+apply plugin: 'com.android.application'
+
+android {
+    dexOptions
+            {
+                javaMaxHeapSize "2048M"
+                preDexLibraries = true
+            }//end dexOptions
+
+    compileSdkVersion 'Google Inc.:Glass Development Kit Preview:19'
+    buildToolsVersion '28.0.3'
+
+    defaultConfig {
+        applicationId "de.uniluebeck.imis.triage"
+        minSdkVersion 19
+        targetSdkVersion 19
+        // Enabling multidex support.
+        multiDexEnabled true    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    compileOptions {
+        sourceCompatibility = '1.7'
+        targetCompatibility = '1.7'
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation 'com.android.support:multidex:1.0.0'
+    implementation project(':zBarScannerActivity')
+    implementation 'com.android.support:support-v4:19.1.0'
+    implementation files('libs/zxing-core-2.3.jar')
+    implementation files('libs/glassvoice_opt.jar')
+    implementation 'com.android.support:support-v4:19.1.0'
+    compileOnly files('libs/zbar.jar')
+}

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Modified layout from https://developers.google.com/glass/develop/gdk/card-design. Here modified in order to display an additional headline and a text in the middle of the footer -->
+<!-- Addition: Prevent screen from getting dark -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true">
+
+    <!-- Headline with two text elements, using a horizontal linear layout. It appears at the top of the screen and uses the margin "headline_main_margin" in order to get free space between the headline and the main panel -->
+    <!-- Because of being derived from the footer, the headline view "will grow to fit as much content as possible while the timestamp view keeps a fixed width. If the footer text is too long, it will be ellipsized with a 40px margin between it and the timestamp" (https://developers.google.com/glass/develop/gdk/card-design). -->
+
+    <LinearLayout
+        android:id="@+id/header_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|start"
+        android:layout_marginBottom="@dimen/headline_main_margin"
+        android:layout_marginLeft="@dimen/glass_card_margin"
+        android:layout_marginRight="@dimen/glass_card_margin"
+        android:orientation="horizontal" >
+
+        <!-- Text at the left side of the headline -->
+
+        <TextView
+            android:id="@+id/headline_left"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <!-- Text at the right side of the headline -->
+
+        <TextView
+            android:id="@+id/headline_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/glass_card_margin"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+
+    <!-- separation line -->
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.3dp"
+        android:layout_marginLeft="@dimen/glass_card_margin"
+        android:layout_marginRight="@dimen/glass_card_margin"
+        android:layout_marginTop="@dimen/glass_card_margin"
+        android:background="@android:color/white" />
+
+    <!-- Main View. Contains a text with large appearance, so that it fills 3 lines -->
+
+   <LinearLayout
+        android:id="@+id/body_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/glass_card_body_height"
+        android:layout_marginBottom="@dimen/separator_bottom_margin"
+        android:layout_marginLeft="@dimen/glass_card_margin"
+        android:layout_marginRight="@dimen/glass_card_margin"
+        android:layout_marginTop="@dimen/glass_card_margin2"
+        android:orientation="vertical" >
+
+   <TextView
+            android:id="@+id/mainHeadLine"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/glass_card_body_text"
+            android:layout_gravity="center_horizontal"
+            android:ellipsize="start"
+            android:gravity="center_vertical"
+            android:singleLine="false"
+            android:textSize="17sp" />
+	          <LinearLayout
+        android:id="@+id/scan_layout"
+        android:layout_height="@dimen/glass_card_body_scan"
+                    android:layout_width="180dp"
+        android:layout_marginBottom="@dimen/separator_bottom_margin"
+              android:orientation="vertical"
+                    android:gravity="center" 
+                    android:layout_marginStart="100dp"
+                     >
+</LinearLayout>
+    </LinearLayout>
+      <!--   android:layout_marginTop="@dimen/glass_card_margin2"
+      @dimen/glass_card_body_scan_width
+              android:layout_width="match_parent"
+      
+      -->
+   
+   
+    <!-- Footer. -->
+    <!--
+             Original comment: "The footer view will grow to fit as much content as possible while the
+             timestamp view keeps a fixed width. If the footer text is too long, it
+             will be ellipsized with a 40px margin between it and the timestamp."
+    -->
+
+
+    <!-- separation line -->
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.3dp"
+        android:layout_gravity="bottom|start"
+        android:layout_marginBottom="@dimen/separator_bottom_margin"
+        android:layout_marginLeft="@dimen/glass_card_margin"
+        android:layout_marginRight="@dimen/glass_card_margin"
+        android:background="@android:color/white" />
+
+    <LinearLayout
+        android:id="@+id/footer_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"
+        android:layout_marginBottom="@dimen/glass_card_footer_margin"
+        android:layout_marginLeft="@dimen/glass_card_margin"
+        android:layout_marginRight="@dimen/glass_card_margin"
+        android:orientation="horizontal" >
+
+        <!-- Text at the left side of the footer -->
+
+        <TextView
+            android:id="@+id/footerLeft"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <!-- Text at the middle of the footer -->
+
+        <TextView
+            android:id="@+id/footerMiddle"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <!-- Timestamp at the right side of the footer -->
+
+        <TextView
+            android:id="@+id/timestamp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/glass_card_margin"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+
+</FrameLayout>

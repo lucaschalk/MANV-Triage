@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Triage.iml" filepath="$PROJECT_DIR$/Triage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/triage/triage.iml" filepath="$PROJECT_DIR$/triage/triage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zBarScannerActivity/zBarScannerActivity.iml" filepath="$PROJECT_DIR$/zBarScannerActivity/zBarScannerActivity.iml" />
+    </modules>
+  </component>
+</project>

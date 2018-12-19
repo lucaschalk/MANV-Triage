@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="blue">#0040FF</color>
+    <color name="green">#198C0F</color>
+    <color name="red">#FF0000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="yellow">#FFFB00</color>
+    <dimen name="activity_vertical_margin">64px</dimen>
+    <dimen name="glass_card_body_height">240px</dimen>
+    <dimen name="glass_card_body_scan">180px</dimen>
+    <dimen name="glass_card_body_scan_width">300px</dimen>
+    <dimen name="glass_card_body_text">60px</dimen>
+    <dimen name="glass_card_footer_margin">25px</dimen>
+    <dimen name="glass_card_left_column_width">240px</dimen>
+    <dimen name="glass_card_margin">40px</dimen>
+    <dimen name="glass_card_margin2">41px</dimen>
+    <dimen name="glass_card_two_column_margin">30px</dimen>
+    <dimen name="headline_main_margin">30px</dimen>
+    <dimen name="separator_bottom_margin">63px</dimen>
+    <dimen name="separator_bottom_margin2">64px</dimen>
+    <string name="action_settings">123</string>
+    <string name="app_name">Triage</string>
+    <string name="back">Stornieren</string>
+    <string name="bleedingControl">Blutstillung</string>
+    <string name="bleedingControlInst">Blutstillung mit Druckverband!</string>
+    <string name="card">Karte anhängen</string>
+    <string name="classification">Kategorisierung</string>
+    <string name="closeMenu">Menü schließen</string>
+    <string name="cont">Weiter</string>
+    <string name="custom_keyword">Triage</string>
+    <string name="inspectionIfDead">Todesfeststellung</string>
+    <string name="inspectionIfDeadQuestion">Todesfeststellung durch Arzt!</string>
+    <string name="kat1">Kat. I - rot</string>
+    <string name="kat2">Kat. II - gelb</string>
+    <string name="kat3">Kat. III - grün</string>
+    <string name="katblack">schwarz</string>
+    <string name="last_bleedingControlled">"Letzte Antwort: Blutstillung erfolgt"</string>
+    <string name="last_getBack">Letzter Befehl: Stornieren</string>
+    <string name="last_inspectedDead">"Letzte Antwort: Todesfeststellung erfolgt"</string>
+    <string name="last_lateralposition">"Letzte Antwort: Patient in stabiler Seitenlage</string>
+    <string name="last_q1no">"Letzte Antwort: Patient gehfähig = Nein"</string>
+    <string name="last_q1yes">"Letzte Antwort: Patient gehfähig = Korrekt"</string>
+    <string name="last_q21no">"Letzte Antwort: Lebensbedrohende Blutung = Nein"</string>
+    <string name="last_q21yes">"Letzte Antwort: Lebensbedrohende Blutung = Korrekt"</string>
+    <string name="last_q22no">"Letzte Antwort: Patient bewusstlos = Nein"</string>
+    <string name="last_q22yes">"Letzte Antwort: Patient bewusstlos = Korrekt"</string>
+    <string name="last_q23no">"Letzte Antwort: Atemstörung = Nein"</string>
+    <string name="last_q23yes">"Letzte Antwort: Atemstörung = Korrekt"</string>
+    <string name="last_q24no">"Letzte Antwort: Kreislaufstörung = Nein"</string>
+    <string name="last_q24yes">"Letzte Antwort: Kreislaufstörung = Korrekt"</string>
+    <string name="last_q25no">"Letzte Antwort: Bewusstseinsstörung = Nein"</string>
+    <string name="last_q25yes">"Letzte Antwort: Bewusstseinsstörung = Korrekt"</string>
+    <string name="last_q26no">"Letzte Antwort: Starke Schmerzen(am Körperstamm) = Nein"</string>
+    <string name="last_q26yes">"Letzte Antwort: Starke Schmerzen(am Körperstamm) = Korrekt"</string>
+    <string name="last_q27no">"Letzte Antwort: Patient liegend? (kann nicht ohne Hilfe gehen)= Nein"</string>
+    <string name="last_q27yes">"Letzte Antwort: Patient liegend? (kann nicht ohne Hilfe gehen)= Korrekt"</string>
+    <string name="last_q2no">"Letzte Antwort: Tödliche Verletzung = Nein"</string>
+    <string name="last_q2yes">"Letzte Antwort: Tödliche Verletzung = Korrekt"</string>
+    <string name="last_q3no">"Letzte Antwort: Spontanatmung fehlt = Nein"</string>
+    <string name="last_q3yes">"Letzte Antwort: Spontanatmung fehlt = Korrekt"</string>
+    <string name="last_q4no">"Letzte Antwort: Atemfrequenz &lt;10 / >30 = Nein"</string>
+    <string name="last_q4yes">"Letzte Antwort: Atemfrequenz &lt;10 / >30 = Korrekt"</string>
+    <string name="last_q5no">"Letzte Antwort: Spritzende Blutung = Nein"</string>
+    <string name="last_q5yes">"Letzte Antwort: Spritzende Blutung = Korrekt"</string>
+    <string name="last_q6no">"Letzte Antwort: Radialispuls fehlt = Nein"</string>
+    <string name="last_q6yes">"Letzte Antwort: Radialispuls fehlt = Korrekt"</string>
+    <string name="last_q7no">"Letzte Antwort: Unfähig Befehlen zu folgen = Nein"</string>
+    <string name="last_q7yes">"Letzte Antwort: Unfähig Befehlen zu folgen = Korrekt"</string>
+    <string name="last_spontaneBreathingNo">"Letzte Antwort: Spontanatmung = Nein"</string>
+    <string name="last_spontaneBreathingYes">"Letzte Antwort: Spontanatmung = Korrekt"</string>
+    <string name="last_transport">"Letzte Antwort: Schnellstmöglich transportiert"</string>
+    <string name="lateralposition">Seitenlage</string>
+    <string name="new_patient">Neuer Patient</string>
+    <string name="next">Neuer Verletzter</string>
+    <string name="no">Nein</string>
+    <string name="no_camera">Kamera nicht verfügbar</string>
+    <string name="overview">Patientenübersicht</string>
+    <string name="patient">Patient</string>
+    <string name="patientId">Patienten-ID erhalten:</string>
+    <string name="pretriage">Vorsichtung</string>
+    <string name="q1">Patient gehfähig?</string>
+    <string name="q2">Tödliche Verletzung?</string>
+    <string name="q21">Lebensbedrohende Blutung?</string>
+    <string name="q22">Patient bewusstlos?</string>
+    <string name="q23">Atemstörung?</string>
+    <string name="q24">Kreislaufstörung?</string>
+    <string name="q25">Bewusstseins- störung?</string>
+    <string name="q26">Starke Schmerzen?(am Körperstamm)</string>
+    <string name="q27">Patient liegend? (kann nicht ohne Hilfe gehen)</string>
+    <string name="q3">Spontanatmung fehlt?</string>
+    <string name="q4">Atemfrequenz\n &lt;10 oder >30 /min?</string>
+    <string name="q4oneline">Atemfrequenz &lt;10/min / >30/min?</string>
+    <string name="q5">Spritzende Blutung?</string>
+    <string name="q6">Radialispuls fehlt?</string>
+    <string name="q7">Unfähig einfachen Befehlen zu folgen?</string>
+    <string name="question">Frage</string>
+    <string name="scan_code">QR-Code von Verletztenanhängekarte anschauen</string>
+    <string name="spontaneousBreathing">Spontanatmung</string>
+    <string name="spontaneousBreathingQuestion">Atemwege freimachen! Spontanatmung?</string>
+    <string name="stop">Beenden</string>
+    <string name="stopbleeding">Blutung stoppen</string>
+    <string name="switchLanguage">Englische Version</string>
+    <string name="transport">schnellstmöglicher Transport</string>
+    <string name="yes">Korrekt</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>
