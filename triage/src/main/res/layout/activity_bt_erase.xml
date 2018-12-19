@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="de.uniluebeck.imis.triage.activities.BT_erase_Activity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="18dp"
+        android:text="Showing Paired Devices:" />
+
+    <Button
+        android:id="@+id/button_scan"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="18dp"
+        android:layout_marginLeft="18dp"
+        android:onClick="scan_click"
+        android:text="Scan devices"
+        android:visibility="invisible" />
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="300dp"
+
+
+        android:layout_height="match_parent"
+        android:layout_above="@+id/button_scan"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1" >
+
+    </ListView>
+
+    <Button
+        android:id="@+id/button_show_paired"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignBaseline="@+id/button_scan"
+        android:layout_alignBottom="@+id/button_scan"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="18dp"
+        android:onClick="ok_click"
+        android:text="Show paired" />
+
+    <Button
+        android:id="@+id/button_OK"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignBaseline="@+id/button_scan"
+        android:layout_alignBottom="@+id/button_scan"
+        android:layout_centerHorizontal="true"
+        android:onClick="ok_click"
+        android:text="OK" />
+
+</RelativeLayout>

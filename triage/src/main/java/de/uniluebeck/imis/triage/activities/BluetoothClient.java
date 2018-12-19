@@ -32,7 +32,7 @@ import android.widget.Toast;
 
 import de.uniluebeck.imis.triage.R;
 
-public class BluetoothActivity extends Activity {
+public class BluetoothClient extends Activity {
 
     public static final int READY_TO_CONN = 0;
     public static final int CANCEL_CONN = 1;
@@ -52,7 +52,7 @@ public class BluetoothActivity extends Activity {
     ConnectThread mConnThread;
     Spinner devices;
     Handler handle;
-    // constant we define and pass to startActForResult (must be >0), that the system passes back to you in your onActivityResult() 
+    // constant we define and pass to startActForResult (must be >0), that the system passes back to you in your onActivityResult()
     // implementation as the requestCode parameter.
     int REQUEST_ENABLE_BT = 1;
     // bc for discovery mode for BT...
@@ -64,7 +64,7 @@ public class BluetoothActivity extends Activity {
                 // Get the BluetoothDevice object from the Intent
                 BluetoothDevice device = intent.getParcelableExtra(BluetoothDevice.EXTRA_DEVICE);
                 // Add the name and address to an array adapter to show in a ListView
-                if (device != null) {
+                if (device != null && device.getName()!= null) {
                     if (device.getName().contains("Nexus")) {
 
                     } else {
@@ -129,9 +129,9 @@ public class BluetoothActivity extends Activity {
         // should allow clients to find us repeatedly
         myBt = BluetoothAdapter.getDefaultAdapter();
         if (myBt == null) {
-            Toast.makeText(this, "Device Does not Support Bluetooth", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Device does not support Bluetooth", Toast.LENGTH_LONG).show();
         } else if (!myBt.isEnabled()) {
-            // we need to wait until bt is enabled before set up, so that's done either in the following else, or 
+            // we need to wait until bt is enabled before set up, so that's done either in the following else, or
             // in the onActivityResult for our code ...
             Intent enableBtIntent = new Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE);
             startActivityForResult(enableBtIntent, REQUEST_ENABLE_BT);
@@ -239,7 +239,7 @@ public class BluetoothActivity extends Activity {
             try {
 
                 // this seems to work on the note3...
-                // you can remove the Insecure if you want to... 
+                // you can remove the Insecure if you want to...
                 tmp = device.createInsecureRfcommSocketToServiceRecord(uuids[0]);
                 //                  Method m;
                 // this is an approach I've seen others use, it wasn't nescesary for me,
@@ -259,7 +259,7 @@ public class BluetoothActivity extends Activity {
                 //              } catch (InvocationTargetException e4) {
                 //                  // TODO Auto-generated catch block
                 //                  e4.printStackTrace();
-                //              }   
+                //              }
                 //                  if(tmp.isConnected()) {
                 //                      break
                 //                  }
@@ -274,13 +274,15 @@ public class BluetoothActivity extends Activity {
 
         public void run() {
             // Cancel discovery because it will slow down the connection
+            //if(myBt.isDiscovering()){
             myBt.cancelDiscovery();
+            //}
             Log.e(TAG, "stopping discovery");
 
             try {
                 // Connect the device through the socket. This will block
                 // until it succeeds or throws an exception
-                Log.e(TAG, "connecting!");
+                Log.e(TAG, "trying to connect boy!");
 
                 mmSocket.connect();
             } catch (IOException connectException) {
@@ -289,11 +291,11 @@ public class BluetoothActivity extends Activity {
 
                 // Unable to connect; close the socket and get out
                 try {
-                    Log.e(TAG, "close-ah-da-socket");
+                    Log.e(TAG, "try to close the socket");
 
                     mmSocket.close();
                 } catch (IOException closeException) {
-                    Log.e(TAG, "failed to close hte socket");
+                    Log.e(TAG, "failed to close the socket");
 
                 }
                 Log.e(TAG, "returning..");
@@ -358,14 +360,15 @@ public class BluetoothActivity extends Activity {
             // Keep listening to the InputStream while connected
             while (true) {
                 try {
-                    //                  byte[] blah = ("System Time:" +System.currentTimeMillis()).getBytes();
-                    //                  write(blah);
-                    //                  Thread.sleep(1000);
+                    byte[] blah = ("System Time:" +System.currentTimeMillis()).getBytes();
+                    write(blah);
+                    Thread.sleep(1000);
                     // Read from the InputStream
                     bytes = mmInStream.read(buffer);
                     // Send the obtained bytes to the UI Activity
                     handle.obtainMessage(MESSAGE_READ, bytes, -1, buffer)
                             .sendToTarget();
+                    System.out.println(bytes);
 
                     //                  .sendToTarget();
                 } catch (Exception e) {
@@ -394,6 +397,7 @@ public class BluetoothActivity extends Activity {
         public void write(byte[] buffer) {
             try {
                 mmOutStream.write(buffer);
+                System.out.println("doh_write");
 
                 // Share the sent message back to the UI Activity
                 //              mHandler.obtainMessage(BluetoothChat.MESSAGE_WRITE, -1, -1, buffer)
