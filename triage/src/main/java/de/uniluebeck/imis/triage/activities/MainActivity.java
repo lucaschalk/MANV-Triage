@@ -73,7 +73,9 @@ public class MainActivity extends Activity {
 		triageController = new TriageController(this);
 
 		// fill in standard texts
-		readQRCode();
+		//readQRCode();
+		openBT();
+		//openUnpairBT();
 
 	}
 
@@ -90,6 +92,20 @@ public class MainActivity extends Activity {
 		intent.putExtra(ZBarConstants.SCAN_MODES, new int[] { Symbol.QRCODE });
 		// start QR code reader. result in onActivityResult()
 		startActivityForResult(intent, Constants.ZBAR_SCANNER_REQUEST);
+	}
+
+	public void openBT() {
+		// initialize QR code reader ZBarScanner
+		Intent intent = new Intent();
+		intent.setClass(getApplicationContext(), BluetoothClient.class);
+		startActivity(intent);
+	}
+
+	public void openUnpairBT() {
+		// initialize QR code reader ZBarScanner
+		Intent intent = new Intent();
+		intent.setClass(getApplicationContext(), BT_erase_Activity.class);
+		startActivity(intent);
 	}
 
 	/**
