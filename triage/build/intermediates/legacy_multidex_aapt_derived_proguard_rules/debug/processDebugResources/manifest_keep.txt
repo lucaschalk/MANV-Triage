@@ -1,2 +1,0 @@
-# Referenced at C:\Users\Bachelorprojekt\Desktop\Triage\triage\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:21
--keep class android.support.multidex.MultiDexApplication { <init>(...); }
