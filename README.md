@@ -9,7 +9,8 @@ https://www.imis.uni-luebeck.de/de/forschung/projekte/manv
 An augmented reality Triage application for mass casualty incidents on the Google Glass and Sony SmartWatch 3 with 
 wireless data synchronization.
 
-![MANV_EMI_2018 Plakat_900_72](https://user-images.githubusercontent.com/12385737/142782076-9789c73a-7746-4939-82de-72c047647174.jpg)
+![MANV_EMI_2018 Plakat_900_72](https://user-images.githubusercontent.com/12385737/142782104-71f7b1a1-7a78-45df-9c66-7e1a3e422886.jpg)
+
 
 Mass casualty incidents are emergencies in which a high number of casualties or people who are affected in 
 some other way occur at one time. Such an emergency represents a considerable challenge for the medical emergency services. 
@@ -19,7 +20,7 @@ categorize the patients according to the severity of the injury and to transmit 
 for mission planning. In practice, the rescue forces responsible for triage, are supported by an algorithm, which is run through 
 and assigns a priority to the sighted patients.
 
-![screen g_glass](https://user-images.githubusercontent.com/12385737/142782037-1d8abfec-1294-49e3-a197-aa7cf55ced82.jpg)
+![screen g_glass](https://user-images.githubusercontent.com/12385737/142782126-699bfdfd-b067-4286-90bc-4502e2b1b4ba.jpg)
 
 Inputs and outputs are synchronized between devices. Likewise, a patient view summarizes persons already triaged according to 
 classification and supports the process of patient data transfer. With an established network connection, this data is automatically 
